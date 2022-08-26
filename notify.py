@@ -43,8 +43,6 @@ for article in soup.select('.r-list-container .r-ent .title a'):
     for index in topicDb: 
         for checkCorrectWord in productList['AirPods']:
             if (checkCorrectWord in index["title"]) and (index['sent'] == False):
-                # For Testing can be eliminated.
-                #print("最新文章: "+index["title"]+"\n"+"連結: "+index["href"] )
                 
                 temp="["+str(i)+"]  "+index["title"]+"\n"+index["href"]+"\n"
                 
@@ -53,8 +51,8 @@ for article in soup.select('.r-list-container .r-ent .title a'):
                 msg=f'{msgtmp}'
                 
                 print(msg)
-                #print('\n'.join(title_list))
-                index['sent'] = True
+               
+                index['sent'] = True #Avoid sending duplicate articles
                 i+=1
                 
             
@@ -76,13 +74,13 @@ def post(message, token):
             data=payload
         )
         if response.status_code == 200:
-            print(f"Success -> {response.text}")
+            print(f"Success -> {response.text}") #Check whether the sending is sucessful
     except Exception as _:
         print("occur exception")
 
 if __name__ == "__main__":
-    token = "1OV4CuPUH3hYKBLqxbuDufUnnyY3wEP5uziQSlEuOyy" # 您的 Token
-    message = msg     # 要發送的訊息
+    token = "1OV4CuPUH3hYKBLqxbuDufUnnyY3wEP5uziQSlEuOyy" # My Token
+    message = msg     # the article to be sent
     post(message, token)
                     
    
