@@ -1,5 +1,5 @@
 # PTT-MacShop-Notifier
-暑假一起自學的 side projrect @jieyu891225
+暑假自學的 side projrect with jieyu891225
 
 Synopsis: A Line Notify Program that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board
 
