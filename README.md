@@ -11,7 +11,7 @@ Windows版可搭配工作排程器，Linux、MacOS版需搭配Crontab定期執�
 ## 使用教學
 ### LINE Notify 設定教學
 1. 在[LINE Notify](https://notify-bot.line.me/zh_TW/)中登入並進入 **個人頁面** 
-2. 點選 **發行權杖** 並選擇要接收通知的**群組聊天室** 或選擇 **透過一對一聊天接收Line Notify通知**，獲取token後 **務必記下token** 離開後將不再顯示
+2. 點選 **發行權杖** 並選擇要接收通知的**群組聊天室** 或選擇 **透過一對一聊天接收Line Notify通知** 獲取token後 **務必記下token** 離開後將不再顯示
 3. 在程式碼裡面設定token，可以選擇一對一或加到現有群組內，即完成設定。
 
 ### Heroku 設定教學
