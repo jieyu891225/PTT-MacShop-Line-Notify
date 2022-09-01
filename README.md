@@ -43,8 +43,7 @@ git push heroku master
 ```
 #### 成果圖
 
-<img src="通知圖.jpg" alt="Cover" width="50%"/>
-<img src="通知圖-2.jpg" alt="Cover" width="50%"/><br />
+<img src="通知圖.jpg" alt="Cover" width="50%"/>  <img src="通知圖-2.jpg" alt="Cover" width="50%"/><br />
 #### 點擊下方圖片以跳轉到Youtube觀看Demo影片👇
 
 [![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)](https://www.youtube.com/watch?v=yw8b3av3hro "PTT-MacShop-Notifier成果展示")
