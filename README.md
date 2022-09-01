@@ -42,8 +42,8 @@ git commit -m "your message"
 git push heroku master
 ```
 #### 成果圖
-![image]([picture or gif url](https://github.com/Yu-Rou-Weng/PTT-MacShop-Line-Notify/blob/main/%E9%80%9A%E7%9F%A5%E5%9C%96.jpg))
-<img src="PTT-MacShop-Line-Notify/通知圖.jpg" alt="Cover" width="50%"/>
+
+<img src="[PTT-MacShop-Line-Notify/通知圖.jpg](https://github.com/Yu-Rou-Weng/PTT-MacShop-Line-Notify/blob/main/%E9%80%9A%E7%9F%A5%E5%9C%96.jpg)" alt="Cover" width="50%"/>
 #### 點擊下方圖片以跳轉到Youtube觀看Demo影片👇
 
 [![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)](https://www.youtube.com/watch?v=yw8b3av3hro "PTT-MacShop-Notifier成果展示")
