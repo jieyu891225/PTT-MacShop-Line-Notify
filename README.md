@@ -5,10 +5,10 @@
 ## 專案內容
 透過Line-Notify訂閱Apple特定產品(如：Airpods)，在特定時間內將PTT Macshop板之新發布販售特定產品貼文時通知Line user。
 
-## 使用須知
+## 使用教學
+### 使用須知
 Windows版可搭配工作排程器，Linux、MacOS版需搭配Crontab定期執行達成即時通知效果，本系統搭配Heroku Scheduler達成定期傳送通知。
 
-## 使用教學
 ### LINE Notify 設定教學
 1. 在[LINE Notify](https://notify-bot.line.me/zh_TW/)中登入並進入 **個人頁面**。
 2. 點選**發行權杖**並選擇要接收通知的**群組聊天室**或選擇透過**一對一聊天接收Line Notify通知**。
