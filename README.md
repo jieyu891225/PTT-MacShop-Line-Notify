@@ -10,15 +10,15 @@ Windows版可搭配工作排程器，Linux、MacOS版需搭配Crontab定期執�
 
 ## 使用教學
 ### LINE Notify 設定教學
-1. 在[LINE Notify](https://notify-bot.line.me/zh_TW/)中登入並進入 **個人頁面** 
-2. 點選 **發行權杖** 並選擇要接收通知的**群組聊天室** 或選擇 透過**一對一聊天接收Line Notify通知**
-3. 獲取token後 **務必記下token** 離開後將不再顯示
+1. 在[LINE Notify](https://notify-bot.line.me/zh_TW/)中登入並進入 **個人頁面**。
+2. 點選**發行權杖**並選擇要接收通知的**群組聊天室**或選擇透過**一對一聊天接收Line Notify通知**。
+3. 獲取token後，**務必記下token**，離開後將不再顯示。
 4. 在程式碼裡面設定token，可以選擇一對一或加到現有群組內，即完成設定。
 
 ### Heroku 設定教學
-1. 在[Heroku](https://www.heroku.com)官網建立帳號
+1. 在[Heroku](https://www.heroku.com)官網建立帳號。
 2. 點選 **New** 後再點選 **create new app** 新增APP服務空間，並設定 **App name**與**region**後新增成功。
-3. 在電腦安裝 **Git**與**Heroku CLI**套件以利後續使用
+3. 在電腦安裝 **Git**與**Heroku CLI**套件以利後續使用。
 
 ### 部署程式至Heroku 
 
