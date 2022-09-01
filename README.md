@@ -32,7 +32,7 @@ git init
 ```
 ##### 綁定Heroku APP服務空間
 ```
-heroku git:remote -a APP Name
+heroku git:remote -a APP_Name
 ```
 
 ##### 上傳檔案指令
