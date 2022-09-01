@@ -1,5 +1,5 @@
 # PTT-MacShop-Notifier
-**暑假自學的簡易Line Notify Bot with @jieyu891225**
+## 暑假與@jieyu891225自學與協作的簡易小專案 —— 爬蟲與Line Notify的實作。
 ****  
   **[使用須知]: Windows版可搭配工作排程器，Linux、MacOS版需搭配Crontab定期執行達成即時通知效果，本系統搭配Heroku Scheduler達成定期傳送通知**
 ****
